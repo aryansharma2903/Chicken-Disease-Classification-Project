@@ -1,0 +1,25 @@
+name: chicken
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - tensorflow=2.13.1
+  - pandas=2.0.3
+  - numpy=1.24.4
+  - scipy=1.10.1
+  - seaborn=0.13.2
+  - pyyaml=6.0.1
+  - tqdm=4.67.0
+  - joblib=1.4.2
+  - pip
+  - pip:
+    - notebook==6.5.6
+    - dvc
+    - python-box==6.0.2
+    - ensure==1.0.2
+    - types-pyYAML
+    - Flask
+    - Flask-Cors
+    - matplotlib=3.7.5
+    - -e .
