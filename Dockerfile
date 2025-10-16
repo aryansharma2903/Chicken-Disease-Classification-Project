@@ -10,7 +10,7 @@ RUN apt-get update && \
 WORKDIR /app
 
 # Copy all files to the container
-COPY . .
+COPY . /app
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
